@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    color: white;
+    background: black;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    display: flex;
+}
+nav{
+    align-items: center;
+    margin: auto;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+}
+a:hover{
+    color: #FED41D;
+}
+.hamburger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+#logos{
+    align-items: flex-end;
+}
+
+#logos img {
+    height: 30px;
+    width: 30px;
+}
+#seção1{
+    background: url(imagens/imagem-de-fundo.jpg) no-repeat center;
+    height: 669px;
+}
+
+#textoPrincipal{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 334px;
+}
+#textoPrincipal h1{
+    font-size: 7em;
+}
+
+/* inicio seção 2
+*********************/
+
+h2{
+    text-align: center;
+}
+#seção2 p{
+    background-color:#D3D4D4;
+    margin: 10px;
+    padding: 50px;
+    border: 1px solid #7070;
+    border-radius: 15px;
+    color: black;
+    text-align: left;
+}
+
+/* inicio seção 3
+*********************/
+#seção3 p{
+    text-align: center;
+}
+.card{
+    width: 22%;
+    background-color:#D3D4D4;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card h3{
+    text-align: center;
+    color: #000;
+    padding-bottom: 2px;
+}
+
+.card p{
+    margin-left: 5px;
+}
+.fotoCard {
+    width: 100%;
+    height: auto;
+}
+.card a img{
+    margin-top: 10px;
+}
+
+/* inicio seção 4
+*********************/
+.card-principal{
+    width: 45%;
+    height: 150px;
+    background-color:#D3D4D4;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    float: left;
+    margin: 10px;
+}
+.card-serviços{
+    width: 85%;
+    background-color:#D3D4D4;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-serviços img{
+    width: 10%;
+    height: auto;
+    position: start;
+    margin-top: -45px;
+    padding: 1px;
+}
+
+.card-principal h3{
+    text-align: center;
+    color: #000;
+    padding-bottom: 2px;
+}
+
+/* inicio seção 5
+*********************/
+#habilidades{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    clear: both;    
+}
+#seção5 h2{
+    clear: both;
+}
+
+#habilidades img{
+    margin-left: 15px;
+}
+
+.logo-habilidades{
+    width: 45px;
+    height: 45px;
+}
+
+/* inicio footer
+*********************/
+footer p{
+    text-align: center;
+    font-size: 6em;
+}
