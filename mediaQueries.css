@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 750px) {
     #logos{display: none;}
     .menu{display: none;}
     .hamburger-menu{display: block;margin-left: 600px;}
