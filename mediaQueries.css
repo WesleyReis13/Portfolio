@@ -1,3 +1,16 @@
+@media only screen and (min-width: 600px) {
+    #logos{display: none;}
+    .menu{display: none;}
+    .hamburger-menu{display: block;margin-left: 600px;}
+    .menu.active { display: flex; }
+    .card{width: 50%;}
+    .card-principal{width:33%; height:210px;float: left; margin-left: 37px;}
+    .card-serviços img{margin-bottom: 17px;}
+    .card-serviços h3{ font-size:16px;width: 85px;margin-left: 50px;}
+    .card-serviços P{ text-align:left; font-size: 14px;}
+    h2{clear: both;}
+    #habilidades{clear: both;}
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #logos{display: none;}
@@ -5,10 +18,10 @@
     .hamburger-menu{display: block;margin-left: 400px;}
     .menu.active { display: flex; }
     .card{width: 50%;}
-    .card-principal{width:37%; height:200px;float: left;}
-    .card-serviços img{ width:19%;margin-top: 10px;}
-    .card-serviços h3{ font-size:16px;width: 100px; float: right;}
-    .card-serviços P{ text-align:center;}
+    .card-principal{width:33%; height:210px;float: left; margin-left: 10px;}
+    .card-serviços img{display: none;}
+    .card-serviços h3{ font-size:16px;width: 85px;}
+    .card-serviços P{ text-align:left; font-size: 14px;}
     h2{clear: both;}
     #habilidades{clear: both;}
 }
