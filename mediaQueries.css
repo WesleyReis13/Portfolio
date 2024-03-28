@@ -1,6 +1,4 @@
 @media only screen and (min-width: 600px) and (max-width: 750px) {
-    #logos{display: none;}
-    .menu{display: none;}
     .menu.active { display: flex; }
     .card{width: 50%;}
     .card-principal{width:33%; height:210px;float: left; margin-left: 37px;}
