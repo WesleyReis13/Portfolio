@@ -1,7 +1,6 @@
 @media only screen and (min-width: 600px) and (max-width: 750px) {
     #logos{display: none;}
     .menu{display: none;}
-    .hamburger-menu{display: block;margin-left: 600px;}
     .menu.active { display: flex; }
     .card{width: 50%;}
     .card-principal{width:33%; height:210px;float: left; margin-left: 37px;}
@@ -13,10 +12,11 @@
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #logos{display: none;}
-    .menu{display: none;}
-    .hamburger-menu{display: block;margin-left: 400px;}
-    .menu.active { display: flex; }
+    header{width: 100%;}
+    .menu{display: flex;}
+    .menu a{font-size: 11px; float: left; padding: 2px;}
+    #logos{display: flex;}
+    #logos img {width:100%;}
     .card{width: 50%;}
     .card-principal{width:33%; height:210px;float: left; margin-left: 10px;}
     .card-serviços img{display: none;}
